@@ -1,0 +1,141 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/flower-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  cursor: url("images/disco.png"), auto; /*custom disco cursor*/
+	
+}
+
+.center {
+    width: 560px;
+	padding: 2%;
+    margin: 80px auto;
+ 	background: rgba(163, 136, 91, .45); /*this uses opacity of 45% for the background color*/
+	text-align: center;
+}
+
+   
+#logo {
+    margin-bottom: 18px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "bickham-script-pro-3", sans-serif;
+    font-weight: 1800;
+    font-style: normal;	
+	font-size: 4.3em;
+    margin: 0px auto 8px auto;
+    color: #3b4b21;
+}
+
+h2 {
+	font-family: "the-seasons", sans-serif;
+	font-weight: 400;
+	font-style: normal;	
+	font-size: 2.5em;
+	line-height: 1;
+    color: #3b4b21;
+    padding: 0px 0px;
+	margin: 0px auto 10px auto;
+}
+
+nav{
+	font-family: "the-seasons", sans-serif;
+	font-weight: 180;
+	font-style: normal;
+	font-size: 1.4em;
+	width: 400px;
+	margin: 0 auto;
+	color: #3b4b21;
+	border: solid #f4efdb;/*solid line white border*/
+	border-width: 1.5px 0;
+	text-align: center;
+	margin-top: 1.2em;
+}  
+
+nav li{
+	display: inline;/*makes it horizontal*/
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #f4efdb;/*for clickable text*/
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover{
+	color: #a3885b;/*different color for clickable text*/
+	background: #f4efdb;
+	cursor: url("images/disco.png"), auto;/*custom disco cursor*/
+}
+    
+
