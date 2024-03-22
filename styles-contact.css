@@ -73,7 +73,7 @@ html, body {
     width: 560px;
 	padding: 2%;
     margin: 80px auto;
- 	background: rgba(163, 136, 91, .45); /*this uses opacity of 45% for the background color*/
+ 	background: rgba(163, 136, 91, .55); /*this uses opacity of 55% for the background color*/
 	text-align: center;
 }
 
@@ -85,9 +85,9 @@ html, body {
 
 h1 {
 	font-family: "bickham-script-pro-3", sans-serif;
-    font-weight: 1800;
+    font-weight: 19000;
     font-style: normal;	
-	font-size: 4.3em;
+	font-size: 4.7em;
     margin: 0px auto 8px auto;
     color: #3b4b21;
 }
